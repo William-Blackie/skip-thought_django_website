@@ -19,7 +19,13 @@ class HomePageView(TemplateView):
 
 
 class AboutPageView(TemplateView):
-    template_name = "about.html"
+    def get(self, request, **kwargs):
+        return render(request, 'about.html', context=None)
+
+
+class ResearchPageView(TemplateView):
+    def get(self, request, **kwargs):
+        return render(request, 'research.html', context=None)
 
 
 class SummariserPageView(TemplateView):
@@ -34,5 +40,6 @@ class SummariserPageView(TemplateView):
                 print form.data.get('url')
                 print form.data.get('compression_rate')
                 print form.data.get('remove_lists')
+                return render(request, )
 
         return render(request, 'input_error.html', context=None)
