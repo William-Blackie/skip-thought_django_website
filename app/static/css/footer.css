@@ -1,0 +1,75 @@
+#footer {
+    background-color: #3a3f46;
+    color: white;
+}
+
+#footer .row {
+    margin-bottom: 60px;
+}
+
+#footer .info{
+    text-align: justify; 
+    color: #afb0b1;
+}
+
+#footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#footer h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#footer a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#footer a:hover,
+#footer a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 767px) {
+    #footer {
+        text-align: center;
+    }
+
+    #footer .info{
+        text-align: center;
+    }
+}
+
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+   flex: 1 0 auto;
+   -webkit-flex: 1 0 auto;
+   min-height: 200px;
+}
+
+#footer{
+   flex: 0 0 auto;
+   -webkit-flex: 0 0 auto;
+}

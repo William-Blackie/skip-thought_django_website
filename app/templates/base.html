@@ -1,0 +1,88 @@
+<!-- app/templates/base.html -->
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/app.css' %}">
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Skip-Thought Extractive Summariser!</title>
+</head>
+<body>
+<div class="page-header">
+    <nav id="nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h1><a href="">Skippy</a></h1>
+                </div>
+                <div class="col-sm-3">
+                   <h1><a href="#">Summariser</a></h1>
+                </div>
+                <div class="col-sm-3">
+                     <h1><a href="#">About</a></h1>
+            </div>
+                <div class="col-sm-3">
+                     <h1><a href="#">Research</a></h1>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="content container">
+        <div class="row">
+            <div class="col-md-8">
+            {% block content %}
+            {% endblock %}
+            </div>
+        </div>
+    </div>
+
+<div class="content">
+</div>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>Project</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Summariser</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Research</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Github</h5>
+                    <ul>
+                        <li><a href="#">Github Link</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Contact</h5>
+                    <ul>
+                        <li><a href="http://williamblackie.com">Website</a></li>
+                        <li><a href="https://github.com/William-Blackie/skip-thought_django_website">Github</a></li>
+                        <li><a href="#">Email</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 info">
+                    <h5>License Information</h5>
+                    <p> This software is provided under the MIT license which can be found here <a href="https://opensource.org/licenses/MIT">License</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+</html>
