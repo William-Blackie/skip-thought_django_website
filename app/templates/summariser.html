@@ -1,0 +1,23 @@
+<!-- app/templates/summariser.html -->
+{% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<body>
+{% block content %}
+<div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>New URL summary</h2>
+                <form method="POST" class="post-form">{% csrf_token %}
+                    {{ form.as_p }}
+                 <button type="submit" class="save btn btn-default">Summarise!</button>
+    </form>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
+</body>
+</html>
