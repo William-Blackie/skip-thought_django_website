@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
+from app.article import Article
+from skipthoughts import WebScraperSummation
+
 from django.shortcuts import render
 
 # Create your views here.
@@ -34,12 +37,15 @@ class SummariserPageView(TemplateView):
         return render(request, 'summariser.html',  {'form': form})
 
     def post(self, request, *args, **kwargs):
+        scraper = WebScraperSummation.WebScraperSummation()
         if request.method == "POST":
             form = PostForm(request.POST)
             if form.is_valid():
                 print form.data.get('url')
                 print form.data.get('compression_rate')
                 print form.data.get('remove_lists')
-                return render(request, )
+                summary_text = scraper.scrape(form.data.get('url'), False, float(form.data.get('compression_rate')))
+                article = Article(summary_text, form.data.get('url'), form.data.get('compression_rate'))  # Put into article object for easier indexing
+                return render(request, 'summary_output.html', {'article': article})  # Add article here
 
         return render(request, 'input_error.html', context=None)

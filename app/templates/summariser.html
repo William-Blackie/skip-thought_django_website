@@ -11,9 +11,11 @@
             <div class="col-sm-12">
                 <h2>New URL summary</h2>
                 <form method="POST" class="post-form">{% csrf_token %}
-                    {{ form.as_p }}
+                    {{ form.as_p}}
                  <button type="submit" class="save btn btn-default">Summarise!</button>
     </form>
+                <h2>Instructions</h2>
+                <p>Enter any url of a news article, for best results please use a bbc.co.uk or thegaurdian.com url as the webscraper is tailored for those urls.</p>
         </div>
     </div>
 

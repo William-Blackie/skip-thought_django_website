@@ -12,7 +12,7 @@ class submitURL(models.Model):
     compression_rate = models.FloatField(validators=[MinValueValidator(0.1), MaxValueValidator(1.0)], default=0.7)
 
     CHOICES =((True, 'Yes'),
-               (False, 'No'),)
+             (False, 'No'),)
 
     remove_lists = models.NullBooleanField(max_length=2, choices=CHOICES, default=True)
 

@@ -2,18 +2,37 @@
 {% extends 'base.html' %}
 {% load static %}
 <!DOCTYPE html>
-<html>
-
-<body>
 {% block content %}
-<div class="container">
+    <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h2><u>Summarised article<u></u></h2>
-        </div>
-    </div>
+                <h2><u>Summary: </u></h2>
+                <h2>Article URL:<a href={{ article.get_url }}></a>{{ article.get_url }}</h2>
+                <p>{{ article.get_article }}</p>
 
-</div>
+            </div>
+        </div>
+        <div class="row">
+            <h2>Summary parameters: </h2>
+            <div class="col-sm-3">
+                <h2>Compression rate:<a>{{ article.get_compression_rate }}</a></h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <h2>Words removed: </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <h2>Words removed: </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <h2>Words removed: </h2>
+            </div>
+        </div>
+
+    </div>
 {% endblock %}
-</body>
-</html>
