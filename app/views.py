@@ -39,17 +39,15 @@ class SummariserPageView(TemplateView):
             form = PostForm(request.POST)
             if form.is_valid():
                 if bool(request.FILES.get('file', False)):  # check if a file has been uploaded
-                    text_summariser = TextFileSummation()
-                    sanitised_text = text_summariser.upload_txt(request)
-
-                    summary_text = text_summariser.summarise_text_file(sanitised_text, form.data.get('compression_rate'))
-                    article = Article(summary_text, form.data.get('url'), form.data.get('compression_rate'))  # Put into article object for easier indexing
+                    text_summariser = TextFileSummation()  # Handle text file article
+                    summary_text, total_words, total_words_removed = text_summariser.summarise_text_file(request, float(form.data.get('compression_rate')))
+                    article = Article(summary_text, form.data.get('url'), form.data.get('compression_rate'), total_words, total_words_removed)  # Put into article object for easier indexing
                     return render(request, 'summary_output.html', {'article': article})  # Add article here
 
                 else:  # Handle URL article
                     scraper = WebScraperSummation.WebScraperSummation()
-                    summary_text = scraper.scrape(form.data.get('url'), False, float(form.data.get('compression_rate')))
-                    article = Article(summary_text, form.data.get('url'), form.data.get('compression_rate'))  # Put into article object for easier indexing
+                    summary_text, total_words, total_words_removed = scraper.scrape(form.data.get('url'), False, float(form.data.get('compression_rate')))
+                    article = Article(summary_text, form.data.get('url'), form.data.get('compression_rate'), total_words, total_words_removed)  # Put into article object for easier indexing
                     return render(request, 'summary_output.html', {'article': article})  # Add article here
 
         return render(request, 'input_error.html', context=None)
