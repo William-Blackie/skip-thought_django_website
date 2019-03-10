@@ -1,9 +1,8 @@
 from django import forms
-from .models import SubmitURL
+from .models import SubmitForm
 
 
 class PostForm(forms.ModelForm):
-
     class Meta:
-        model = SubmitURL
+        model = SubmitForm
         fields = ("url", "compression_rate", "remove_lists", "file")

@@ -9,7 +9,10 @@
 <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h2><u>Error please try and submit again!<u></u></h2>
+                <h2><u>Error please try and submit again!</u></h2>
+                    {% for i, j in errors.items %}
+                        <p>Error type {{ i }}: {{ j }}</p>
+                    {% endfor %}
                 <div class="col-sm-8 offset-col-sm-2">
                    <h1><a href="/summariser">Try again</a></h1>
                 </div>
