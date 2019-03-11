@@ -1,20 +1,14 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-
-from django.core.checks import messages
-
 from app.article import Article
 from skipthoughts import WebScraperSummation
 from skipthoughts.textfileSummation import TextFileSummation
-
 from django.shortcuts import render
 from django.views.generic import TemplateView
 from app.forms import PostForm
-from django.contrib import messages
-
-
 # Create your views here.
 # app/views.py
+
 
 class HomePageView(TemplateView):
     def get(self, request, **kwargs):
@@ -34,7 +28,6 @@ class ResearchPageView(TemplateView):
 class SummariserPageView(TemplateView):
     def get(self, request):
         form = PostForm()
-        print form
         if request.method == 'GET':
             return render(request, 'summariser.html', {'form': form})
 
@@ -52,6 +45,7 @@ class SummariserPageView(TemplateView):
                     return render(request, 'summary_output.html', {'article': article})  # Add article here
 
                 else:  # Handle URL article
+                    print form.data.get("compression_rate")
                     scraper = WebScraperSummation.WebScraperSummation()
                     summary_text, total_words, total_words_removed, errors = scraper.scrape(
                         form.data.get('url'), form.data.get("remove_lists"),

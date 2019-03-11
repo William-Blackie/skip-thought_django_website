@@ -15,7 +15,7 @@ class FileValidator(RegexValidator):
     Class for uploaded file validation.
     """
     def __init__(self, message=None):
-        extensions = 'txt'
+        extensions = '.txt'
         if not hasattr(extensions, '__iter__'):
             extensions = [extensions]
         regex = '\.(%s)$' % '|'.join(extensions)
