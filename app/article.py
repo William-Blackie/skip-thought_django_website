@@ -1,4 +1,5 @@
 
+
 class Article(object):
     def __init__(self, article, url, compression_rate, total_words, total_words_removed):
         self.article = article

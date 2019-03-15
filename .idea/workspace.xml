@@ -12,19 +12,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestViews_test_summariser_view.coverage" NAME="Test: app.test.test.TestViews.test_summariser_view Coverage Results" MODIFIED="1552243415211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestForms.coverage" NAME="Test: app.test.test.TestForms Coverage Results" MODIFIED="1552247405610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test.coverage" NAME="Test: app.test.test Coverage Results" MODIFIED="1552336447523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestSummariser_test_summarise_text_file_english.coverage" NAME="Test: app.test.test:TestSummariser.test_summarise_text_file_english Coverage Results" MODIFIED="1552318466266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestFormValidation_test_form_bad_lower_compression.coverage" NAME="Test: app.test.test:TestFormValidation.test_form_bad_lower_compression Coverage Results" MODIFIED="1552583570933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestFormValidation_test_form_test_remove_false.coverage" NAME="Test: app.test.test:TestFormValidation.test_form_test_remove_false Coverage Results" MODIFIED="1552583950308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestForms.coverage" NAME="Test: app.test.test:TestForms Coverage Results" MODIFIED="1552584071467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestFormValidation_test_form_test_no_file_url.coverage" NAME="Test: app.test.test:TestFormValidation.test_form_test_no_file_url Coverage Results" MODIFIED="1552584246642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestFormValidation.coverage" NAME="Test: app.test.test:TestFormValidation Coverage Results" MODIFIED="1552583960205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestSummariser_test_summarise_text_file_english.coverage" NAME="Test: app.test.test:TestSummariser.test_summarise_text_file_english Coverage Results" MODIFIED="1552669350386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestModels_test_Model.coverage" NAME="Test: app.test.test:TestModels.test_Model Coverage Results" MODIFIED="1552325672584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestFormValidation_test_form_test_bad_file_type.coverage" NAME="Test: app.test.test:TestFormValidation.test_form_test_bad_file_type Coverage Results" MODIFIED="1552585483671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestSummariser_test_summarise_url_english.coverage" NAME="Test: app.test.test:TestSummariser.test_summarise_url_english Coverage Results" MODIFIED="1552320230270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestModels_test_Model_no_url_file.coverage" NAME="Test: app.test.test:TestModels.test_Model_no_url_file Coverage Results" MODIFIED="1552326747728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestModels_test_Model_no_url_file.coverage" NAME="Test: app.test.test:TestModels.test_Model_no_url_file Coverage Results" MODIFIED="1552394402524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestModels_test_model_large_file.coverage" NAME="Test: app.test.test:TestModels.test_model_large_file Coverage Results" MODIFIED="1552578935542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestSummariser_test_summarise_url_german.coverage" NAME="Test: app.test.test:TestSummariser.test_summarise_url_german Coverage Results" MODIFIED="1552577986877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestModels.coverage" NAME="Test: app.test.test:TestModels Coverage Results" MODIFIED="1552584036902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestForms_test_form_upload_txt.coverage" NAME="Test: app.test.test:TestForms.test_form_upload_txt Coverage Results" MODIFIED="1552587705507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestFormValidation_test_form_bad_upper_compression.coverage" NAME="Test: app.test.test:TestFormValidation.test_form_bad_upper_compression Coverage Results" MODIFIED="1552583527881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestModels_test_model_good_file_type.coverage" NAME="Test: app.test.test:TestModels.test_model_good_file_type Coverage Results" MODIFIED="1552402188959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestSummariser_test_summarise_text_file_german.coverage" NAME="Test: app.test.test:TestSummariser.test_summarise_text_file_german Coverage Results" MODIFIED="1552579137628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestForms_test_form_url.coverage" NAME="Test: app.test.test:TestForms.test_form_url Coverage Results" MODIFIED="1552571190347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestViews_test_summariser_view.coverage" NAME="Test: app.test.test.TestViews.test_summariser_view Coverage Results" MODIFIED="1552243415211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestModels_test_model_remove_lists_false.coverage" NAME="Test: app.test.test:TestModels.test_model_remove_lists_false Coverage Results" MODIFIED="1552396586845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$DataUtils.coverage" NAME="DataUtils Coverage Results" MODIFIED="1552651412125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/skipthoughts/Utils" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__skipthoughts_Utils.coverage" NAME="Test: skipthoughts.Utils Coverage Results" MODIFIED="1552650656471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test.coverage" NAME="Test: app.test.test Coverage Results" MODIFIED="1552668037359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestFormValidation_test_form_bad_url.coverage" NAME="Test: app.test.test:TestFormValidation.test_form_bad_url Coverage Results" MODIFIED="1552583356106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestFormValidation_test_form_bad_remove_lists.coverage" NAME="Test: app.test.test:TestFormValidation.test_form_bad_remove_lists Coverage Results" MODIFIED="1552583831878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestSummeriser.coverage" NAME="Test: app.test.test.TestSummeriser Coverage Results" MODIFIED="1552233861097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__skipthoughts.coverage" NAME="Test: skipthoughts Coverage Results" MODIFIED="1552668375618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestViews.coverage" NAME="Test: app.test.test.TestViews Coverage Results" MODIFIED="1552243457197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestViews_test_summeriser_view.coverage" NAME="Test: app.test.test.TestViews.test_summeriser_view Coverage Results" MODIFIED="1552243344555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestForms_test_form_invalid_file.coverage" NAME="Test: app.test.test.TestForms.test_form_invalid_file Coverage Results" MODIFIED="1552246640161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestModels.coverage" NAME="Test: app.test.test:TestModels Coverage Results" MODIFIED="1552334347583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$tests.coverage" NAME="tests Coverage Results" MODIFIED="1552586037087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestForms_test_form_invalid_file.coverage" NAME="Test: app.test.test:TestForms.test_form_invalid_file Coverage Results" MODIFIED="1552562251831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestForms_test_form_invalid_url.coverage" NAME="Test: app.test.test:TestForms.test_form_invalid_url Coverage Results" MODIFIED="1552577912341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_MyTests_test_summerise_text_file.coverage" NAME="Test: app.test.test.MyTests.test_summerise_text_file Coverage Results" MODIFIED="1552146693936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestFormValidation_test_form_large_txt.coverage" NAME="Test: app.test.test:TestFormValidation.test_form_large_txt Coverage Results" MODIFIED="1552584538903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestModels_test_model_bad_file_type.coverage" NAME="Test: app.test.test:TestModels.test_model_bad_file_type Coverage Results" MODIFIED="1552402339528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/skipthought_django_website$Test__app_test_test_TestSummariser.coverage" NAME="Test: app.test.test:TestSummariser Coverage Results" MODIFIED="1552578059344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -42,121 +65,6 @@
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/test/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="185" column="8" selection-start-line="185" selection-start-column="8" selection-end-line="185" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/skipthought_django_website/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-              <folding>
-                <element signature="e#331#340#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/validators.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/skipthoughts/article_summation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1413">
-              <caret line="127" selection-start-line="127" selection-end-line="127" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-              <folding>
-                <element signature="e#24#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/db/models/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="1248" selection-start-line="1248" selection-end-line="1248" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/forms/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="417" selection-start-line="417" selection-end-line="417" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/forms/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="182" selection-start-line="182" selection-end-line="182" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -190,8 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/skipthought_django_website/templates/about.html" />
-        <option value="$PROJECT_DIR$/skipthought_django_website/urls.py" />
         <option value="$PROJECT_DIR$/app/static/css/Footer-with-logo.css" />
         <option value="$PROJECT_DIR$/app/static/css/footer.css" />
         <option value="$PROJECT_DIR$/app/static/css/app.css" />
@@ -203,32 +109,41 @@
         <option value="$PROJECT_DIR$/app/templates/research.html" />
         <option value="$PROJECT_DIR$/app/templates/index.html" />
         <option value="$PROJECT_DIR$/app/urls.py" />
-        <option value="$PROJECT_DIR$/app/templates/summariser.html" />
         <option value="$PROJECT_DIR$/app/article.py" />
         <option value="$PROJECT_DIR$/app/templates/summary_output.html" />
         <option value="$PROJECT_DIR$/app/templates/base.html" />
         <option value="$PROJECT_DIR$/skipthoughts/Utils/DataUtils.py" />
-        <option value="$PROJECT_DIR$/skipthoughts/Utils/graphUtils.py" />
         <option value="$PROJECT_DIR$/skipthoughts/vectorExpansion.py" />
         <option value="$PROJECT_DIR$/skipthoughts/skipthoughts.py" />
-        <option value="$PROJECT_DIR$/skipthoughts/Utils/webscraperUtils.py" />
         <option value="$PROJECT_DIR$/app/templates/input_error.html" />
         <option value="$PROJECT_DIR$/app/test/__init__.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.sql" />
-        <option value="$PROJECT_DIR$/app/forms.py" />
+        <option value="$PROJECT_DIR$/app/ContentTypeRestrictedFileField.py" />
+        <option value="$PROJECT_DIR$/app/test/test_files/large_english_test.txt" />
+        <option value="$PROJECT_DIR$/app/templates/summariser.html" />
         <option value="$PROJECT_DIR$/skipthought_django_website/settings.py" />
-        <option value="$PROJECT_DIR$/skipthoughts/WebScraperSummation.py" />
-        <option value="$PROJECT_DIR$/skipthoughts/textfileSummation.py" />
-        <option value="$PROJECT_DIR$/app/validators.py" />
+        <option value="$PROJECT_DIR$/skipthought_django_website/templates/about.html" />
+        <option value="$PROJECT_DIR$/skipthought_django_website/urls.py" />
         <option value="$PROJECT_DIR$/app/models.py" />
-        <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/app/forms.py" />
         <option value="$PROJECT_DIR$/app/test/test.py" />
+        <option value="$PROJECT_DIR$/app/validators.py" />
+        <option value="$PROJECT_DIR$/skipthoughts/textfileSummation.py" />
+        <option value="$PROJECT_DIR$/skipthoughts/Utils/webscraperUtils.py" />
+        <option value="$PROJECT_DIR$/skipthoughts/Utils/graphUtils.py" />
+        <option value="$PROJECT_DIR$/app/Article.py" />
+        <option value="$PROJECT_DIR$/skipthoughts/Utils/WebScraperUtils.py" />
+        <option value="$PROJECT_DIR$/skipthoughts/Utils/GraphUtils.py" />
         <option value="$PROJECT_DIR$/skipthoughts/article_summation.py" />
+        <option value="$PROJECT_DIR$/skipthoughts/TextfileSummation.py" />
+        <option value="$PROJECT_DIR$/skipthoughts/WebScraperSummation.py" />
+        <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/skipthoughts/ArticleSummation.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -254,21 +169,12 @@
             <path>
               <item name="skipthought_django_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="skipthought_django_website" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="skipthought_django_website" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="skipthought_django_website" type="b2602c69:ProjectViewProjectNode" />
               <item name="skipthought_django_website" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="skipthought_django_website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="skipthought_django_website" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="test_files" type="462c0819:PsiDirectoryNode" />
+              <item name="skipthoughts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="skipthought_django_website" type="b2602c69:ProjectViewProjectNode" />
@@ -294,12 +200,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\skipthought_django_website\app\test\test_files" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\skipthought_django_website\app\test\test_files" />
       <recent name="D:\Projects\skipthought_django_website\app\static\images" />
       <recent name="C:\Users\Willi\Projects\skipthought_django_website\app\static\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\skipthought_django_website\app\test\test_files" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -314,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django tests.Test: app.test.test">
+  <component name="RunManager" selected="Django server.skipthought_django_website">
     <configuration name="Test: app.test.test" type="DjangoTestsConfigurationType" temporary="true">
       <module name="skipthought_django_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -335,7 +242,7 @@
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: app.test.test:TestModels" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: app.test.test:TestForms.test_form_upload_txt" type="DjangoTestsConfigurationType" temporary="true">
       <module name="skipthought_django_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -348,14 +255,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="app.test.test:TestModels" />
+      <option name="TARGET" value="app.test.test:TestForms.test_form_upload_txt" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: app.test.test:TestModels.test_Model" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: app.test.test:TestSummariser.test_summarise_text_file_english" type="DjangoTestsConfigurationType" temporary="true">
       <module name="skipthought_django_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -368,14 +275,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="app.test.test:TestModels.test_Model" />
+      <option name="TARGET" value="app.test.test:TestSummariser.test_summarise_text_file_english" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: app.test.test:TestModels.test_Model_no_url_file" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: skipthoughts" type="DjangoTestsConfigurationType" temporary="true">
       <module name="skipthought_django_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -388,14 +295,14 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="app.test.test:TestModels.test_Model_no_url_file" />
+      <option name="TARGET" value="skipthoughts" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Test: app.test.test:TestSummariser.test_summarise_url_english" type="DjangoTestsConfigurationType" temporary="true">
+    <configuration name="Test: skipthoughts.Utils" type="DjangoTestsConfigurationType">
       <module name="skipthought_django_website" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -408,11 +315,33 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="app.test.test:TestSummariser.test_summarise_url_english" />
+      <option name="TARGET" value="skipthoughts.Utils" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DataUtils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="skipthought_django_website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/skipthoughts/Utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/skipthoughts/Utils/DataUtils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="skipthought_django_website" type="Python.DjangoServer" factoryName="Django server">
@@ -439,13 +368,22 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django server.skipthought_django_website" />
+      <item itemvalue="Django tests.Test: skipthoughts.Utils" />
+      <item itemvalue="Django tests.Test: app.test.test" />
+      <item itemvalue="Django tests.Test: app.test.test:TestForms.test_form_upload_txt" />
+      <item itemvalue="Python.DataUtils" />
+      <item itemvalue="Django tests.Test: skipthoughts" />
+      <item itemvalue="Django tests.Test: app.test.test:TestSummariser.test_summarise_text_file_english" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Django tests.Test: app.test.test:TestSummariser.test_summarise_text_file_english" />
+        <item itemvalue="Django tests.Test: skipthoughts" />
         <item itemvalue="Django tests.Test: app.test.test" />
-        <item itemvalue="Django tests.Test: app.test.test:TestModels" />
-        <item itemvalue="Django tests.Test: app.test.test:TestModels.test_Model_no_url_file" />
-        <item itemvalue="Django tests.Test: app.test.test:TestModels.test_Model" />
-        <item itemvalue="Django tests.Test: app.test.test:TestSummariser.test_summarise_url_english" />
+        <item itemvalue="Python.DataUtils" />
+        <item itemvalue="Django tests.Test: app.test.test:TestForms.test_form_upload_txt" />
       </list>
     </recent_temporary>
   </component>
@@ -476,43 +414,48 @@
       <workItem from="1552231768457" duration="16074000" />
       <workItem from="1552248424299" duration="45000" />
       <workItem from="1552316478438" duration="20432000" />
+      <workItem from="1552390708115" duration="12898000" />
+      <workItem from="1552560361029" duration="26056000" />
+      <workItem from="1552648499723" duration="3827000" />
+      <workItem from="1552662677659" duration="3102000" />
+      <workItem from="1552666383396" duration="5265000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test__app_test_test_TestModels - 2019.03.11 at 19h 54m 46s.xml">
-      <configuration name="Test: app.test.test:TestModels" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__app_test_test_TestModels - 2019.03.11 at 19h 58m 01s.xml">
-      <configuration name="Test: app.test.test:TestModels" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__app_test_test_TestModels - 2019.03.11 at 19h 59m 09s.xml">
-      <configuration name="Test: app.test.test:TestModels" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__app_test_test - 2019.03.11 at 19h 59m 54s.xml">
+    <history-entry file="Test__app_test_test - 2019.03.15 at 15h 44m 55s.xml">
       <configuration name="Test: app.test.test" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__app_test_test - 2019.03.11 at 20h 03m 27s.xml">
+    <history-entry file="Test__app_test_test - 2019.03.15 at 15h 47m 04s.xml">
       <configuration name="Test: app.test.test" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__app_test_test - 2019.03.11 at 20h 04m 08s.xml">
+    <history-entry file="Test__app_test_test - 2019.03.15 at 15h 49m 33s.xml">
       <configuration name="Test: app.test.test" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__app_test_test - 2019.03.11 at 20h 08m 51s.xml">
+    <history-entry file="Test__app_test_test - 2019.03.15 at 16h 13m 54s.xml">
       <configuration name="Test: app.test.test" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__app_test_test - 2019.03.11 at 20h 22m 58s.xml">
+    <history-entry file="Test__app_test_test - 2019.03.15 at 16h 23m 06s.xml">
       <configuration name="Test: app.test.test" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__app_test_test - 2019.03.11 at 20h 34m 06s.xml">
+    <history-entry file="Test__app_test_test - 2019.03.15 at 16h 32m 19s.xml">
       <configuration name="Test: app.test.test" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__app_test_test - 2019.03.11 at 20h 41m 55s.xml">
+    <history-entry file="Test__app_test_test - 2019.03.15 at 16h 34m 10s.xml">
       <configuration name="Test: app.test.test" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__skipthoughts - 2019.03.15 at 16h 46m 22s.xml">
+      <configuration name="Test: skipthoughts" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__app_test_test - 2019.03.15 at 16h 48m 07s.xml">
+      <configuration name="Test: app.test.test" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__app_test_test_TestSummariser_test_summarise_text_file_english - 2019.03.15 at 17h 11m 12s.xml">
+      <configuration name="Test: app.test.test:TestSummariser.test_summarise_text_file_english" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187013000" />
+    <option name="totallyTimeSpent" value="238161000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,15 +467,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25929978" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28446388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32822758" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989059" weight="0.33479214" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989059" visible="true" weight="0.33479214" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49781182" weight="0.38402626" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -543,10 +486,11 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32932165" />
       <window_info anchor="bottom" id="Database Changes" order="11" weight="0.32932165" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32932165" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.71991247" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.6816192" />
       <window_info anchor="right" id="Database" order="4" weight="0.32932165" />
     </layout>
     <layout-to-restore>
@@ -580,44 +524,29 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/skipthoughts/Utils/webscraperUtils.py</url>
+          <url>file://$PROJECT_DIR$/skipthoughts/Utils/WebScraperUtils.py</url>
           <line>109</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/skipthoughts/Utils/webscraperUtils.py</url>
+          <url>file://$PROJECT_DIR$/skipthoughts/Utils/WebScraperUtils.py</url>
           <line>116</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/app/test/test.py</url>
-          <line>39</line>
+          <line>147</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/test/test.py</url>
-          <line>167</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/test/test.py</url>
-          <line>168</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/validators.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="61" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/app/models.py</url>
-          <line>38</line>
-          <option name="timeStamp" value="67" />
+          <url>file://$PROJECT_DIR$/app/views.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/app/views.py</url>
-          <line>33</line>
-          <option name="timeStamp" value="71" />
+          <line>56</line>
+          <option name="timeStamp" value="79" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -641,144 +570,147 @@
         <watch expression="self" />
         <watch expression="self.pk" />
         <watch expression="self" />
+        <watch expression="self.file.field.model" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/template/context.py">
+    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/db/models/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="286" selection-start-line="286" selection-end-line="286" />
+        <state relative-caret-position="417">
+          <caret line="1248" selection-start-line="1248" selection-end-line="1248" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/db/models/sql/compiler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="898" selection-start-line="898" selection-end-line="898" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/db/models/query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/unittest/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="99" column="77" lean-forward="true" selection-start-line="99" selection-start-column="77" selection-end-line="99" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/db/models/fields/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="598" column="8" selection-start-line="598" selection-start-column="8" selection-end-line="598" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ContentTypeRestrictedFileField.py" />
+    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/db/backends/base/creation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/core/serializers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/migrations/0002_auto_20190312_1236.py" />
+    <entry file="file://$PROJECT_DIR$/app/migrations/0003_auto_20190312_1341.py" />
+    <entry file="file://$PROJECT_DIR$/app/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/test/test_files/large_english_test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72981">
+          <caret line="16199" column="127" selection-start-line="16199" selection-start-column="127" selection-end-line="16199" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/input_error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/test/test_files/english_test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="24" selection-end-line="30" selection-end-column="180" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipthought_django_website/templates/about.html" />
+    <entry file="file://$PROJECT_DIR$/skipthought_django_website/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/theano/scan_module/scan.py">
+    <entry file="file://$PROJECT_DIR$/app/models.py" />
+    <entry file="file://$PROJECT_DIR$/app/templates/summariser.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="958" selection-start-line="958" selection-end-line="958" />
+        <state relative-caret-position="289">
+          <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/skipthought_django_website/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="48" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/db/models/fields/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="182" selection-start-line="182" selection-end-line="182" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/genericpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skipthoughts/data/test_data/english_test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-end-line="30" selection-end-column="180" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/core/management/commands/runserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="109" selection-start-line="109" selection-end-line="109" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skipthoughts/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/core/files/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/nltk/tokenize/punkt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="1326" selection-start-line="1326" selection-end-line="1326" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/article.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/theano/compile/sharedvalue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="267" selection-start-line="267" selection-end-line="267" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/theano/gpuarray/type.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="720" selection-start-line="720" selection-end-line="720" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/research.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skipthoughts/Utils/DataUtils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="83" column="46" lean-forward="true" selection-end-line="91" />
+        <state relative-caret-position="272">
+          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#331#340#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skipthoughts/Utils/graphUtils.py">
+    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" lean-forward="true" selection-end-line="36" />
+        <state relative-caret-position="194">
+          <caret line="415" selection-start-line="415" selection-end-line="415" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#14#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skipthoughts/setup.py">
+    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/core/handlers/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="213">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/core/handlers/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
@@ -789,204 +721,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skipthoughts/vectorExpansion.py">
+    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/core/exceptions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="194">
+          <caret line="99" column="6" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/core/handlers/exception.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skipthoughts/Utils/webscraperUtils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/summary_output.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/test/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/input_error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/test/test_files/english_test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/views/generic/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="189" selection-start-line="189" selection-end-line="189" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/summariser.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/test/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="198" selection-start-line="198" selection-end-line="198" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="e#14#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skipthoughts/skipthoughts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="48" />
-          <folding>
-            <element signature="e#30#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skipthoughts/WebScraperSummation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="45" column="38" selection-start-line="45" selection-end-line="46" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skipthoughts/textfileSummation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="59" column="59" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/db/models/fields/files.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2695">
-          <caret line="293" selection-start-line="293" selection-end-line="293" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_bundle/pydev_monkey_qt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="328" selection-start-line="328" selection-end-line="328" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/skipthought_django_website/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="e#331#340#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-1845">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/forms/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="182" selection-start-line="182" selection-end-line="182" />
+        <state relative-caret-position="324">
+          <caret line="397" selection-start-line="397" selection-end-line="397" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/db/models/base.py">
+    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/forms/fields.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="1248" selection-start-line="1248" selection-end-line="1248" />
+        <state relative-caret-position="171">
+          <caret line="599" selection-start-line="599" selection-end-line="599" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/forms/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="417" selection-start-line="417" selection-end-line="417" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/test/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="185" column="8" selection-start-line="185" selection-start-column="8" selection-end-line="185" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="442">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/validators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="306">
+          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -995,30 +777,202 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state relative-caret-position="424">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models.py">
+    <entry file="file://$PROJECT_DIR$/skipthoughts/Utils/DataUtils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state>
           <folding>
-            <element signature="e#24#63#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skipthoughts/article_summation.py">
+    <entry file="file://$PROJECT_DIR$/skipthoughts/vectorExpansion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1413">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        <state relative-caret-position="136">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipthoughts/skipthoughts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipthoughts/Utils/GraphUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipthoughts/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/test/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="83" column="8" selection-start-line="83" selection-start-column="8" selection-end-line="83" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/site-packages/django/conf/urls/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipthought_django_website/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Miniconda2/envs/skip-thoughts/Lib/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Article.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipthoughts/ArticleSummation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="23" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipthoughts/Utils/WebScraperUtils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipthoughts/TextfileSummation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="58" column="89" lean-forward="true" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#D:/Projects/skipthought_django_website/skipthoughts">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#D:/Projects/skipthought_django_website/skipthoughts</OriginalElement>
+          <nodes>
+            <node x="377.0" y="740.0">skipthoughts.Utils.DataUtils.DataUtils</node>
+            <node x="0.0" y="1197.0">skipthoughts.Utils.GraphUtils.GraphUtils</node>
+            <node x="109.5" y="101.0">object</node>
+            <node x="0.0" y="740.0">skipthoughts.ArticleSummation.ArticleSummation</node>
+            <node x="0.0" y="1035.0">skipthoughts.TextfileSummation.TextFileSummation</node>
+            <node x="430.0" y="1035.0">skipthoughts.WebScraperSummation.WebScraperSummation</node>
+            <node x="894.0" y="134.0">skipthoughts.decoding.homogeneous_data.HomogeneousData</node>
+            <node x="0.0" y="599.0">skipthoughts.skipthoughts.Encoder</node>
+            <node x="515.0" y="123.0">skipthoughts.training.homogeneous_data.HomogeneousData</node>
+            <node x="832.0" y="1035.0">skipthoughts.Utils.WebScraperUtils.WebScraperUtils</node>
+            <node x="171.5" y="0.0">typing.Hashable</node>
+            <node x="1080.75" y="0.0">typing.Iterator</node>
+            <node x="670.0" y="740.0">skipthoughts.skipthoughts.LoadModel</node>
+            <node x="575.0" y="11.0">typing.Iterable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="object" target="typing.Hashable">
+              <point x="0.0" y="-224.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="skipthoughts.training.homogeneous_data.HomogeneousData" target="typing.Iterable">
+              <point x="-89.75" y="-213.0" />
+              <point x="-29.75" y="25.5" />
+            </edge>
+            <edge source="skipthoughts.decoding.homogeneous_data.HomogeneousData" target="typing.Iterable">
+              <point x="-92.0" y="-202.0" />
+              <point x="986.0" y="93.0" />
+              <point x="664.25" y="93.0" />
+              <point x="29.75" y="25.5" />
+            </edge>
+            <edge source="skipthoughts.skipthoughts.Encoder" target="object">
+              <point x="0.0" y="-48.0" />
+              <point x="0.0" y="224.0" />
+            </edge>
+            <edge source="skipthoughts.training.homogeneous_data.HomogeneousData" target="typing.Iterator">
+              <point x="89.75" y="-213.0" />
+              <point x="784.25" y="103.0" />
+              <point x="1110.5" y="103.0" />
+              <point x="-29.75" y="36.5" />
+            </edge>
+            <edge source="skipthoughts.decoding.homogeneous_data.HomogeneousData" target="typing.Iterator">
+              <point x="92.0" y="-202.0" />
+              <point x="29.75" y="36.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.1490853658536586" x="188.86176704696206" y="1018.8617670469621" />
+          <SelectedNodes>
+            <node>skipthoughts.Utils.WebScraperUtils.WebScraperUtils</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Fields</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DjangoModelDependency/#skipthought_django_website">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DjangoModelDependency</ID>
+          <OriginalElement>#skipthought_django_website</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="721.0" y="283.0" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skipthoughts/WebScraperSummation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="38" column="89" selection-start-line="38" selection-start-column="89" selection-end-line="38" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>

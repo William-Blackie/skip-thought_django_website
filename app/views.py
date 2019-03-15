@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-from app.article import Article
+from app.Article import Article
 from skipthoughts import WebScraperSummation
-from skipthoughts.textfileSummation import TextFileSummation
+from skipthoughts.TextfileSummation import TextFileSummation
 from django.shortcuts import render
 from django.views.generic import TemplateView
 from app.forms import PostForm
@@ -34,7 +34,7 @@ class SummariserPageView(TemplateView):
     def post(self, request):
         errors = {}
         if request.method == "POST":
-            form = PostForm(request.POST)
+            form = PostForm(request.POST, request.FILES)
             if form.is_valid():
                 if bool(request.FILES.get('file', False)):  # check if a file has been uploaded
                     text_summariser = TextFileSummation()  # Handle text file article
@@ -42,10 +42,10 @@ class SummariserPageView(TemplateView):
                         form.data.get('compression_rate')), errors)
                     article = Article(summary_text, form.data.get('url'), form.data.get('compression_rate'),
                                       total_words, total_words_removed)  # Put into article object for easier indexing
-                    return render(request, 'summary_output.html', {'article': article})  # Add article here
+                    if not errors:
+                        return render(request, 'summary_output.html', {'article': article})  # Add article here
 
                 else:  # Handle URL article
-                    print form.data.get("compression_rate")
                     scraper = WebScraperSummation.WebScraperSummation()
                     summary_text, total_words, total_words_removed, errors = scraper.scrape(
                         form.data.get('url'), form.data.get("remove_lists"),
@@ -55,5 +55,5 @@ class SummariserPageView(TemplateView):
                                       total_words, total_words_removed)  # Put into article object for easier indexing
                         return render(request, 'summary_output.html', {'article': article})  # Add article here
             else:
-                errors["invalid_post"] = "invalid Post request"
+                errors["invalid_post"] = form.errors
         return render(request, 'input_error.html', {'errors': errors})

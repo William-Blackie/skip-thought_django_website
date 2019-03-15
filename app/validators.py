@@ -1,27 +1,35 @@
 import os
 from django.core.exceptions import ValidationError
-from django.core.validators import RegexValidator
+from django.core.validators import URLValidator
+from django.template.defaultfilters import filesizeformat
 
 
-def validate_file_extension(value):
-    ext = os.path.splitext(value.name)[1]  # [0] returns path+filename
-    valid_extensions = ['.doc', '.docx', '.txt']
+def file_validator(uploaded_file):
+    ext = os.path.splitext(uploaded_file.name)[1]  # [0] returns path+filename
+    valid_extensions = ['.txt']
     if not ext.lower() in valid_extensions:
         raise ValidationError(u'Unsupported file extension.')
+    if uploaded_file.size > 10000:  # 10KB file maximum
+        raise ValidationError(message='Please keep file size under %s. Current file size %s' % (
+            filesizeformat(10000), filesizeformat(uploaded_file.size)))
 
 
-class FileValidator(RegexValidator):
-    """
-    Class for uploaded file validation.
-    """
-    def __init__(self, message=None):
-        extensions = '.txt'
-        if not hasattr(extensions, '__iter__'):
-            extensions = [extensions]
-        regex = '\.(%s)$' % '|'.join(extensions)
-        if message is None:
-            message = 'File type not supported. Accepted types are: %s.' % ', '.join(extensions)
-        super(FileValidator, self).__init__(regex, message)
+def url_validator(url):
+    validate = URLValidator()
+    try:
+        validate(url)
+    except ValidationError:
+        raise ValidationError(message="Invalid URL: %s0=" % url,
+                              code='Invalid_url')
 
-    def __call__(self, value):
-        super(FileValidator, self).__call__(value.name)
+
+def compression_rate_validator(compression_rate):
+    if compression_rate > 1.0 or compression_rate < 0.1:
+        raise ValidationError(message="Compression rate out of bounds: (0.1-1.0): actual %s " % compression_rate,
+                code='compression_rate_out_of_bounds')
+
+
+def remove_lists_validator(remove_lists):
+    if remove_lists not in (u'True', u'False'):
+        raise ValidationError(message="remove_lists not in choices, choice found: %s " % str(remove_lists),
+                                  code='invalid_remove_lists')
