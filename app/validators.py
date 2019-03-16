@@ -9,9 +9,9 @@ def file_validator(uploaded_file):
     valid_extensions = ['.txt']
     if not ext.lower() in valid_extensions:
         raise ValidationError(u'Unsupported file extension.')
-    if uploaded_file.size > 10000:  # 10KB file maximum
+    if uploaded_file.size > 10024:  # 10KB file maximum
         raise ValidationError(message='Please keep file size under %s. Current file size %s' % (
-            filesizeformat(10000), filesizeformat(uploaded_file.size)))
+            filesizeformat(10024), filesizeformat(uploaded_file.size)))
 
 
 def url_validator(url):

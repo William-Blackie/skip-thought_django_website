@@ -53,6 +53,11 @@ NOSE_ARGS = [
     '--nologcapture',
 ]
 
+ALLOWED_HOSTS = [
+    'testserver',
+    '127.0.0.1',
+]  # TODO this is for production ONLY
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
