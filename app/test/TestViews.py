@@ -11,14 +11,15 @@ Class for testing views being correctly shown.
 os.environ['DJANGO_SETTINGS_MODULE'] = 'skipthought_django_website.settings'
 django.setup()
 
+
 class TestViews(TestCase):
     def setUp(self):
         self.client = Client()
 
     def test_about_view(self):
         """
-
-        :return:
+        method for testing the correct view is shown from GET method.
+        :return: None.
         """
         response = self.client.get('/about/', follow=True)
         self.assertEqual(response.status_code, 200,
@@ -27,8 +28,8 @@ class TestViews(TestCase):
 
     def test_research_view(self):
         """
-
-        :return:
+        method for testing the correct view is shown from GET method.
+        :return: None.
         """
         response = self.client.get('/research/', follow=True)
         self.assertEqual(response.status_code, 200,
@@ -37,8 +38,8 @@ class TestViews(TestCase):
 
     def test_home_view(self):
         """
-
-        :return:
+        method for testing the correct view is shown from GET method.
+        :return: None.
         """
         response = self.client.get('/', follow=True)
         self.assertEqual(response.status_code, 200,
@@ -47,8 +48,8 @@ class TestViews(TestCase):
 
     def test_summariser_view(self):
         """
-
-        :return:
+        method for testing the correct view is shown from GET method.
+        :return: None.
         """
         response = self.client.get('/summariser/', follow=True)
         self.assertEqual(response.status_code, 200,

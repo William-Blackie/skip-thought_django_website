@@ -1,17 +1,25 @@
 from django import forms
-from django.core.exceptions import ValidationError
-from django.core.validators import MinValueValidator, MaxValueValidator, URLValidator
-from django.template.defaultfilters import filesizeformat
 from app.validators import file_validator, url_validator, compression_rate_validator
 
-CHOICES = ((True, 'Yes'),
-               (False, 'No'),)
+"""
+Author: William Blackie
+Class for creating my PostForm.
+"""
 
-content_types = ['txt', ]
+# Static variables.
+CHOICES = ((True, 'Yes'),
+            (False, 'No'),)
+
+CONTENT_TYPES = ['txt', ]
 
 
 class PostForm(forms.Form):
     def __init__(self, *args, **kwargs):
+        """
+        Basic init method.
+        :param args: url, file, compression_rate and remove_lists.
+        :param kwargs:
+        """
         super(PostForm, self).__init__(*args, **kwargs)
 
     url = forms.URLField(required=False, validators=[url_validator], label='Write your URL here')
@@ -20,6 +28,11 @@ class PostForm(forms.Form):
     remove_lists = forms.ChoiceField(choices=CHOICES)
 
     def clean(self):
+        """
+        Method overriding default clean method, allowing custom validators to be called in self.cleaned.
+        Allowing for checking for custom inputs at upload time.
+        :return: data: sanitised form object.
+        """
         data = self.cleaned_data
         if all(fields in data for fields in ('url','file', 'compression_rate', 'remove_lists')):
             if not bool(data['url']) and not bool(data['file']):  # if NOR file, url then throw error

@@ -27,7 +27,7 @@ class TestSummariserTextEncoding(TestCase):
     @tag('slow', 'core')
     def test_summarise_text_file_encoding_UTF8(self):
         """
-        Method for testing the correct response for an english.txt file.
+        Method for testing the correct response for a valid UTF-8 encoded file.
         """
         with open(english_test_text, "rb") as text:
             form_data = \
@@ -40,7 +40,7 @@ class TestSummariserTextEncoding(TestCase):
     @tag('fast', 'core')
     def test_summarise_text_file_encoding_ANSI(self):
         """
-        Method for testing the correct response for an ANSI encoded file.
+        Method for testing the correct response for a invalid ANSI encoded file.
         """
         with open(ANSI_encoded_test_text, "rb") as text:
             form_data = \
@@ -48,12 +48,12 @@ class TestSummariserTextEncoding(TestCase):
             response = self.client.post('/summariser/', form_data, follow=True, format='multipart')
         self.assertEqual(response.status_code, 200,
                          "Correct status code: 200 actual response: %s" % response.status_code)
-        self.assertTemplateUsed('input_error.html.html')
+        self.assertTemplateUsed('input_error.html')
 
     @tag('fast', 'core')
     def test_summarise_text_file_encoding_unicode(self):
         """
-        Method for testing the correct response for an ANSI encoded file.
+        Method for testing the correct response for a invalid Unicode encoded file.
         """
         with open(unicode_encoded_test_text, "rb") as text:
             form_data = \
@@ -61,12 +61,12 @@ class TestSummariserTextEncoding(TestCase):
             response = self.client.post('/summariser/', form_data, follow=True, format='multipart')
         self.assertEqual(response.status_code, 200,
                          "Correct status code: 200 actual response: %s" % response.status_code)
-        self.assertTemplateUsed('input_error.html.html')
+        self.assertTemplateUsed('input_error.html')
 
     @tag('fast', 'core')
     def test_summarise_text_file_encoding_unicode_big(self):
         """
-        Method for testing the correct response for an ANSI encoded file.
+        Method for testing the correct response for a invalid Unicode big endian encoded file.
         """
         with open(unicode_big_encoded_test_text, "rb") as text:
             form_data = \
@@ -74,5 +74,5 @@ class TestSummariserTextEncoding(TestCase):
             response = self.client.post('/summariser/', form_data, follow=True, format='multipart')
         self.assertEqual(response.status_code, 200,
                          "Correct status code: 200 actual response: %s" % response.status_code)
-        self.assertTemplateUsed('input_error.html.html')
+        self.assertTemplateUsed('input_error.html')
 
