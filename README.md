@@ -81,6 +81,12 @@ Install requirements:
   pip install -r requirements.txt
 ```
 
+you should see something like this:
+
+<p>
+    <img src="README_images/requirements.txt_output.jpg" width="530" height="140" />
+</p>
+
 Create migrations:
 ```
   python manage.py migrate
@@ -98,7 +104,9 @@ run your new server:
 
 If all went well you should see something like this:
 
-![start_server.jpg]?(README_images/start_server.jpg)
+<p>
+    <img src="README_images/start_server.jpg" width="530" height="140" />
+</p>
 
 open Skippy! 
 
@@ -109,11 +117,18 @@ Paste the following into your chosen web browser:
 
 ##Basic usage
 ### Summarise a text file
+Select summarise in the navigation bar, select the upload button and select English text.txt encoded in UTF-8, select your compression rate for the text(optimal is 0.3) and wait for the article to be summarised!
+
 
 ### Summarise a URL
+Select summarise in the navigation bar and paste an English URL, select your compression rate for the text(optimal is 0.3) and wait for the article to be summarised!
 
-##
+Note that summation will take some time depending article length and a higher compression rate, having a recent CPU will help but this project will benefit greatly from being properly deployed.
+### About page
+Some more information about the project.
 
+### Research 
+A basic summary of my project and the implementations details including more information on relevant papers.
 ## Authors
 
 * **William Blackie** - [Github](https://github.com/William-Blackie) - Email: contact@williamblackie.com
@@ -121,7 +136,9 @@ Paste the following into your chosen web browser:
 
 ## License
 
-This project is licensed under the apache 2.0 license - see the [here](http://www.apache.org/licenses/LICENSE-2.0) file for details
+This project is licensed under the apache 2.0 license - see the [here](http://www.apache.org/licenses/LICENSE-2.0) file for details.
+
+If you choose to extend this project please give credit to the training material sources as well as the original authors and a link to this project.
 
 ## Acknowledgments
 
