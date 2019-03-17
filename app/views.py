@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
-from app.Article import Article
 from skipthoughts import WebScraperSummation
-from skipthoughts.TextfileSummation import TextFileSummation
+from skipthoughts import TextfileSummation
+from app.Article import Article
 from django.shortcuts import render
 from django.views.generic import TemplateView
 from app.forms import PostForm
@@ -78,7 +78,7 @@ class SummariserPageView(TemplateView):
             form = PostForm(request.POST, request.FILES)
             if form.is_valid():
                 if bool(request.FILES.get('file', False)):  # check if a file has been uploaded
-                    text_summariser = TextFileSummation()  # Handle text file article
+                    text_summariser = TextfileSummation.TextFileSummation()  # Handle text file article
                     summary_text, total_words, total_words_removed, errors = text_summariser.summarise_text_file(request, float(
                         form.data.get('compression_rate')), errors)
                     article = Article(summary_text, form.data.get('url'), form.data.get('compression_rate'),

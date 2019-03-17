@@ -23,8 +23,8 @@ class PostForm(forms.Form):
         super(PostForm, self).__init__(*args, **kwargs)
 
     url = forms.URLField(required=False, validators=[url_validator], label='Write your URL here')
-    file = forms.FileField(required=False, validators=[file_validator])
-    compression_rate = forms.FloatField(min_value=0.0, max_value=1.0, validators=[compression_rate_validator])
+    file = forms.FileField(required=False, validators=[file_validator], label='Or upload a text.txt file')
+    compression_rate = forms.FloatField(min_value=0.0, max_value=1.0, validators=[compression_rate_validator], initial=0.7)
     remove_lists = forms.ChoiceField(choices=CHOICES)
 
     def clean(self):

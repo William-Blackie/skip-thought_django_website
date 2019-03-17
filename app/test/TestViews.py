@@ -34,7 +34,7 @@ class TestViews(TestCase):
         response = self.client.get('/research/', follow=True)
         self.assertEqual(response.status_code, 200,
                          "Correct status code: 200 actual response: %s" % response.status_code)
-        self.assertTemplateUsed('about.html')
+        self.assertTemplateUsed('research.html')
 
     def test_home_view(self):
         """

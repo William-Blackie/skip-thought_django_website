@@ -1,21 +1,22 @@
 # Skippy
 Skippy, a final year project for the University of the West of England. This project allows the users to host and run a django production server that implements personally trained skip-thought vectors to make an extractive summeriser tailored for news articles that takes any url or text.txt files encoded in UTF-8 and returns summary using sentence embeddings and various user set arguments like compression rate and including list elements in webpages.
 
-The summeriser itself can be found [here]() as a stand alone module with instructions for training,
-##Getting started
+The summariser itself can be found [here](https://github.com/William-Blackie/Extractive_Skip-thought_Summeriser) as a stand alone module with instructions for training,
+
+## Getting started
 To get started you will need:
 
-###Hardware
+### Hardware
 For Skippy:
 * 8GB of ram, more is better.
 * A recent CPU
 * Around X of storage.
 
-For training skipthoughts:
-* please see my [skipthoughts repo](https://github.com/William-Blackie/Extractive_Skip-thought_Summeriser) for instructions.
+For training Skip-Thought vectors:
+* please see my [Skip-Thought Extractive Summariser repo](https://github.com/William-Blackie/Extractive_Skip-thought_Summeriser) for instructions.
 
 
-###Software
+### Software
 
 [git bash](https://gitforwindows.org/) - to clone the repo.
 
@@ -25,15 +26,15 @@ For training skipthoughts:
 
 [CUDNN 7.42](https://developer.nvidia.com/rdp/cudnn-archive) - CUDA updates used in Theano, the files need to be placed in the installation directory of CUDA.
 
-##Cloning the repo
+## Cloning the repo
 Using git bash:
 ```
     git clone https://github.com/William-Blackie/skip-thought_django_website
 ```
 
 ## Installation
-###Theano
-Theano requires enivroment variables to be set, which can be done programatically but for ease of please save the following into your home directory as theanorc.txt:
+## Theano
+Theano requires environment variables to be set, which can be done programmatically but for ease of please save the following into your home directory as theanorc.txt:
 
 Please make sure the cuda and dnn paths match your own installation.
 ```
@@ -63,23 +64,19 @@ enabled = True
 MKL_THREADING_LAYER=GNU
 ```
 
-Anaconda
+## Anaconda
 Open the terminal and follow the bellow instructions.
 
-Create a new environment:
+Navigate to the root of the cloned project and run to create a conda environment for the project:
 ```
-  conda create -n yourenvname python=2.7.15 anaconda
+  conda env create -n skippy_env -f environment.yml
 ```
 
 Activate your environment:
 ```
-  conda activate yourenvname
+  conda activate skippy_env
 ```
 
-Install requirements:
-```
-  pip install -r requirements.txt
-```
 
 you should see something like this:
 
@@ -115,7 +112,7 @@ Paste the following into your chosen web browser:
   localhost:8000
 ```
 
-##Basic usage
+## Basic usage
 ### Summarise a text file
 Select summarise in the navigation bar, select the upload button and select English text.txt encoded in UTF-8, select your compression rate for the text(optimal is 0.3) and wait for the article to be summarised!
 
