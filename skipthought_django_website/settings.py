@@ -42,7 +42,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'app',
     'django_nose',
+    'django_extensions',
 ]
+
+GRAPH_MODELS = {
+  'all_applications': True,
+  'group_models': True,
+}
 
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 
