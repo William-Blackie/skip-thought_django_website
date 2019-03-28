@@ -31,7 +31,7 @@ class TestSummariserTextEncoding(TestCase):
         """
         with open(english_test_text, "rb") as text:
             form_data = \
-                {"url": "", "compression_rate": float(0.3), "remove_lists": True, "file": text}
+                {"url": "", "compression_rate": float(0.7), "remove_lists": True, "file": text}
             response = self.client.post('/summariser/', form_data, follow=True, format='multipart')
         self.assertEqual(response.status_code, 200,
                          "Correct status code: 200 actual response: %s" % response.status_code)
@@ -44,7 +44,7 @@ class TestSummariserTextEncoding(TestCase):
         """
         with open(ANSI_encoded_test_text, "rb") as text:
             form_data = \
-                {"url": "", "compression_rate": float(0.3), "remove_lists": True, "file": text}
+                {"url": "", "compression_rate": float(0.7), "remove_lists": True, "file": text}
             response = self.client.post('/summariser/', form_data, follow=True, format='multipart')
         self.assertEqual(response.status_code, 200,
                          "Correct status code: 200 actual response: %s" % response.status_code)
@@ -57,7 +57,7 @@ class TestSummariserTextEncoding(TestCase):
         """
         with open(unicode_encoded_test_text, "rb") as text:
             form_data = \
-                {"url": "", "compression_rate": float(0.3), "remove_lists": True, "file": text}
+                {"url": "", "compression_rate": float(0.7), "remove_lists": True, "file": text}
             response = self.client.post('/summariser/', form_data, follow=True, format='multipart')
         self.assertEqual(response.status_code, 200,
                          "Correct status code: 200 actual response: %s" % response.status_code)
@@ -70,7 +70,7 @@ class TestSummariserTextEncoding(TestCase):
         """
         with open(unicode_big_encoded_test_text, "rb") as text:
             form_data = \
-                {"url": "", "compression_rate": float(0.3), "remove_lists": True, "file": text}
+                {"url": "", "compression_rate": float(0.7), "remove_lists": True, "file": text}
             response = self.client.post('/summariser/', form_data, follow=True, format='multipart')
         self.assertEqual(response.status_code, 200,
                          "Correct status code: 200 actual response: %s" % response.status_code)

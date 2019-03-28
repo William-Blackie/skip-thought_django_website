@@ -10,6 +10,27 @@
         <div class="row">
             <div class="col-sm-8 col-sm-offset-4">
                 <h2><u>Research</u></h2>
+                <h3>Research Questions</h3>
+                <p>I first gave myself a general view of the natural language processing using Advances in Automatic Text Summarisation (Mani & Maybury, 1999) to better understand the domain and be able to propose questions properly. Based upon this base research I propose the following questions to be able to capture my project fully:</p>
+<ul>
+    <li>1.	Should I take an abstractive or extractive approach?</li>
+    <li>2.	What are the current approaches for text summaries?</li>
+    <li>3.	What approach should I take for news article summarisation?</li>
+    <li>4.	How much compression/ text reduction should take place?</li>
+    <li>5.	What are the parameters for training my model?</li>
+    <li>6.	How should my project be presented? </li>
+</ul>
+
+
+<h3>Outcome of Literature review</h3>
+                <p>The literature review proposed many interesting avenues of implementation all with different benefits and limitations, I however propose the following solutions.</p>
+                <p>Question 1 depended on what type of summary which I was aiming to create. As I am focussing on unstructured information, an extractive informative summary was the best technique to aim to maintain as much salient information in an article to give much needed context to a summary and, while an abstractive approach could have produced a more concise summary, it risks creating a summary that is factually incorrect depending on bias in the training data.</p>
+                <p>Question 2 was a very open-ended question but, due to my needs, I found word embeddings showed promising results in state-of-the-art summation. Word2Vecs models were of interest as it allowed for training of high-quality word embeddings, but they struggled with large or generic domain representation (Tomas Mikolov, 2013). Skip-Thoughts abstracted upon Skip-Gram model proposed by Mikolov using a sentence level forced training task for creating a more generic representation for training word embeddings. This is the most suitable for news articles as they can contain any topic of information and I am not aiming to create a summariser for a single publisher so will better suit my aims.</p>
+                <p>Question 3 defines the needs for limiting summarises to a single page as articles are likely a single page document as well as a greater length of a document would likely reduce the salient information per sentence in the article as filler would be needed for context and transition sentences making the summary less effective for larger articles. The need for a corpus to be reflective of my chosen domain also was a prominent feature as the corpus needed to be large enough to cover in frequently used words as well as not be domain specific. Finally reiterating the need for extractive summation as I aimed to present salient information to users from their chosen article.</p>
+                <p>Question 4 is a contested issue with ranges of 5-30% compression of the original text length.  I selected 30% as this is the lowest rate of compression and so should maintain the most salient parts of an article while providing context for the reader, making the summary more effective at informing the users. </p>
+                <p>Question 5 is simply an extension of the Skip-Thoughts model I will implement. As the model in question needs a large contiguous corpus of text proposed to improve upon the Brown corpus (Kauhanen, 2011), which is a fiction corpus, I would need to use a non-fiction corpus to be relevant to news article as they themselves are non-fiction, so the word embeddings themselves are likely to be less effective. I had chosen to create my own corpus from a recent Wikipedia dump (Wikipedia, 2019)to for fill these requirements.</p>
+                <p>Question 6 was defined by the other tools I examined, and such required a web facing UI of some variety. I selected the use of Django (Django, 2019), an open source, security focused webserver framework as it was written in python so would not require separate deployment environments as well as having inbuilt security features at is core as users will need to upload text files as well as input text into a text fields.</p>
+
         </div>
     </div>
 
