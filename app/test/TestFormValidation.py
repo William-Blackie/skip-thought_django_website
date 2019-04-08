@@ -27,7 +27,7 @@ class TestFormValidation(TestCase):
         Testing the correct response to an invalid URL argument.
         """
         form_data = \
-                {"url": "foobar", "compression_rate": float(0.7), "remove_lists": True, "file": None}
+                {"url": "foobar", "compression_rate": float(0.3), "remove_lists": True, "file": None}
         response = self.client.post('/summariser/', form_data, follow=True, format='multipart')
         self.assertEqual(response.status_code, 200,
                          "Correct status code: 200 actual response: %s" % response.status_code)
@@ -66,7 +66,7 @@ class TestFormValidation(TestCase):
         """
 
         form_data = \
-            {"url": english_test_url_bbc, "compression_rate": float(0.7), "remove_lists": 'foo', "file": None}
+            {"url": english_test_url_bbc, "compression_rate": float(0.3), "remove_lists": 'foo', "file": None}
         response = self.client.post('/summariser/', form_data, follow=True, format='multipart')
         self.assertEqual(response.status_code, 200,
                          "Correct status code: 200 actual response: %s" % response.status_code)
@@ -79,7 +79,7 @@ class TestFormValidation(TestCase):
         """
 
         form_data = \
-            {"url": english_test_url_bbc, "compression_rate": float(0.7), "remove_lists": False, "file": None}
+            {"url": english_test_url_bbc, "compression_rate": float(0.3), "remove_lists": False, "file": None}
         response = self.client.post('/summariser/', form_data, follow=True, format='multipart')
         self.assertEqual(response.status_code, 200,
                          "Correct status code: 200 actual response: %s" % response.status_code)
@@ -92,7 +92,7 @@ class TestFormValidation(TestCase):
         """
 
         form_data = \
-                {"url": "", "compression_rate": float(0.7), "remove_lists": False, "file": None}
+                {"url": "", "compression_rate": float(0.3), "remove_lists": False, "file": None}
         response = self.client.post('/summariser/', form_data, follow=True, format='multipart')
         self.assertEqual(response.status_code, 200,
                          "Correct status code: 200 actual response: %s" % response.status_code)
@@ -105,7 +105,7 @@ class TestFormValidation(TestCase):
         """
         with open(large_english_test_text, "rb") as text:
             form_data = \
-                {"url": "", "compression_rate": float(0.7), "remove_lists": False, "file": text}
+                {"url": "", "compression_rate": float(0.3), "remove_lists": False, "file": text}
             response = self.client.post('/summariser/', form_data, follow=True, format='multipart')
         self.assertEqual(response.status_code, 200,
                          "Correct status code: 200 actual response: %s" % response.status_code)
@@ -118,7 +118,7 @@ class TestFormValidation(TestCase):
         """
         with open(invalid_file_type_text, "rb") as text:
             form_data = \
-                {"url": "", "compression_rate": float(0.7), "remove_lists": False, "file": text}
+                {"url": "", "compression_rate": float(0.3), "remove_lists": False, "file": text}
             response = self.client.post('/summariser/', form_data, follow=True, format='multipart')
         self.assertEqual(response.status_code, 200,
                          "Correct status code: 200 actual response: %s" % response.status_code)

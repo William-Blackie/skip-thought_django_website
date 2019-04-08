@@ -36,7 +36,7 @@ class TestForms(TestCase):
         Simple method to create and test a PostForm being valid.
         """
         form = self.create_form(url=english_test_url_bbc,
-                                compression_rate=0.7,
+                                compression_rate=0.3,
                                 remove_lists=True,
                                 uploaded_file=None)
         self.assertTrue(form.is_valid())

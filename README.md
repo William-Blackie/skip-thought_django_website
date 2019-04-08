@@ -10,7 +10,7 @@ To get started you will need:
 For Skippy:
 * 8GB of ram, more is better.
 * A recent CPU
-* Around X of storage.
+* Around 5GB of storage.
 
 For training Skip-Thought vectors:
 * please see my [Skip-Thought Extractive Summariser repo](https://github.com/William-Blackie/Extractive_Skip-thought_Summeriser) for instructions.
@@ -69,7 +69,7 @@ Open the terminal and follow the bellow instructions.
 
 Navigate to the root of the cloned project and run to create a conda environment for the project:
 ```
-  conda env create -n skippy_env -f environment.yml
+  conda env create -n skippy_env -f package-list.txt
 ```
 
 Activate your environment:

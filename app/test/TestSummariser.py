@@ -29,7 +29,7 @@ class TestSummariser(TestCase):
         """
         with open(english_test_text, "rb") as text:
             form_data = \
-                {"url": "", "compression_rate": float(0.7), "remove_lists": True, "file": text}
+                {"url": "", "compression_rate": float(0.3), "remove_lists": True, "file": text}
             response = self.client.post('/summariser/', form_data, follow=True, format='multipart')
         self.assertEqual(response.status_code, 200,
                          "Correct status code: 200 actual response: %s" % response.status_code)
@@ -42,7 +42,7 @@ class TestSummariser(TestCase):
         """
         with open(spanish_test_text, "rb") as text:
             form_data = \
-                {"url": "", "compression_rate": float(0.7), "remove_lists": True,
+                {"url": "", "compression_rate": float(0.3), "remove_lists": True,
                  "file": text}
             response = self.client.post('/summariser/', form_data, follow=True, format='multipart')
         self.assertEqual(response.status_code, 200,
@@ -56,7 +56,7 @@ class TestSummariser(TestCase):
         """
         with open(german_test_text, "rb") as text:
             form_data = \
-                {"url": "", "compression_rate": 0.7, "remove_lists": True,
+                {"url": "", "compression_rate": 0.3, "remove_lists": True,
                  "file": text}
             response = self.client.post('/summariser/', form_data, follow=True, format='multipart')
         self.assertEqual(response.status_code, 200, "Correct status code: 200 actual response: %s" % response.status_code)
@@ -69,7 +69,7 @@ class TestSummariser(TestCase):
         """
         form_data = \
             {"url": english_test_url_bbc,
-             "compression_rate": float(0.7),
+             "compression_rate": float(0.3),
              "remove_lists": True,
              "file": None}
 
@@ -85,7 +85,7 @@ class TestSummariser(TestCase):
         """
         form_data = \
             {"url": english_test_url_new_york_times,
-             "compression_rate": float(0.7),
+             "compression_rate": float(0.3),
              "remove_lists": True,
              "file": None}
 
@@ -101,7 +101,7 @@ class TestSummariser(TestCase):
         """
         form_data = \
             {"url": english_test_url_thegaurdian,
-             "compression_rate": float(0.7),
+             "compression_rate": float(0.3),
              "remove_lists": True,
              "file": None}
 
@@ -117,7 +117,7 @@ class TestSummariser(TestCase):
         """
         form_data = \
             {"url": spanish_test_url,
-             "compression_rate": 0.7,
+             "compression_rate": 0.3,
              "remove_lists": True,
              "file": None}
 
@@ -133,7 +133,7 @@ class TestSummariser(TestCase):
         """
         form_data = \
             {"url": german_test_url,
-             "compression_rate": 0.7,
+             "compression_rate": 0.3,
              "remove_lists": True,
             "file": None}
         response = self.client.post('/summariser/', form_data, follow=True, format='multipart')
