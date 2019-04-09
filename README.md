@@ -69,12 +69,12 @@ Open the terminal and follow the bellow instructions.
 
 Navigate to the root of the cloned project and run to create a conda environment for the project:
 ```
-  conda env create -n skippy_env -f package-list.txt
+  conda env create -f enviroment.yaml
 ```
 
 Activate your environment:
 ```
-  conda activate skippy_env
+  conda activate skip-thoughts
 ```
 
 
