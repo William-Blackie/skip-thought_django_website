@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  web:
+    build: .
+    container_name: skip-thought_django_website
+    command: bash -c "python manage.py makemigrations && python manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    expose:
+      - 8000
+    ports:
+      - 8000:8000

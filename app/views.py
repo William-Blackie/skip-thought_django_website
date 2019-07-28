@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
+
+from app.article import Article
 from skipthoughts import WebScraperSummation
 from skipthoughts import TextfileSummation
-from app.Article import Article
 from django.shortcuts import render
 from django.views.generic import TemplateView
 from app.forms import PostForm
