@@ -1,5 +1,5 @@
 # Skippy
-Skippy, a final year project for the University of the West of England. This project allows the users to host and run a django production server that implements personally trained skip-thought vectors to make an extractive summeriser tailored for news articles that takes any url or text.txt files encoded in UTF-8 and returns summary using sentence embeddings and various user set arguments like compression rate and including list elements in webpages.
+Skippy, a final year project for the University of the West of England. This project allows the users to host and run a django development server that implements trained skip-thought vectors to make an extractive summeriser tailored for news articles that takes any url or text.txt files encoded in UTF-8 and returns summary using sentence embeddings and various user set arguments like compression rate and inclusion of list elements in webpages.
 
 The summariser itself can be found [here](https://github.com/William-Blackie/Extractive_Skip-thought_Summeriser) as a stand alone module with instructions for training,
 
@@ -10,30 +10,46 @@ To get started you will need:
 For Skippy:
 * 8GB of ram, more is better.
 * A recent CPU
-* Around 5GB of storage.
+* Around 8GB of storage.
 
 For training Skip-Thought vectors:
 * please see my [Skip-Thought Extractive Summariser repo](https://github.com/William-Blackie/Extractive_Skip-thought_Summeriser) for instructions.
 
 
-### Software
+### Software Requirements
+
+#### Linux (Recommended)
+
+Python 2.7; likely to be already installed on most major distros, developed on Ubuntu 18.04 LTS.
+
+[docker-compose](https://docs.docker.com/compose/install/) Optional for running the development server in docker for a faster setup.
+
+#### Windows
 
 [git bash](https://gitforwindows.org/) - to clone the repo.
 
-[Anaconda Python 2.7](https://www.anaconda.com/distribution/) - to be able to run the server.
+[pip](https://pip.pypa.io/en/stable/installing/) - Pip to install the dependencies.
 
-[CUDA 9.0](https://developer.nvidia.com/cuda-90-download-archive)  - to be able to run Theano (used for training and summation)
+[docker-compose](https://docs.docker.com/compose/install/) Optional for running the development server in docker for a faster setup.
+
+#### GPU Acceleration
+
+If using a NVIDIA based GPU as I did install the relevant CUDA and CUDNN files to allow for GPU computation.
+
+[CUDA 9.0](https://developer.nvidia.com/cuda-90-download-archive)  - to be able to run Theano (used for training and summation).
 
 [CUDNN 7.42](https://developer.nvidia.com/rdp/cudnn-archive) - CUDA updates used in Theano, the files need to be placed in the installation directory of CUDA.
 
 ## Cloning the repo
-Using git bash:
+Using bash:
 ```
     git clone https://github.com/William-Blackie/skip-thought_django_website
 ```
 
 ## Installation
-## Theano
+## Theano 
+This is optional as mostly are required for training; allowing for GPU/ CPU selection and other parameters to improve performance.
+
 Theano requires environment variables to be set, which can be done programmatically but for ease of please save the following into your home directory as theanorc.txt:
 
 Please make sure the cuda and dnn paths match your own installation.
@@ -64,19 +80,13 @@ enabled = True
 MKL_THREADING_LAYER=GNU
 ```
 
-## Anaconda
-Open the terminal and follow the bellow instructions.
+## Development server
+Open the terminal(bash) and follow the bellow instructions. If you want to get started quickly skip to docker-compose but for training I suggest the development server.
 
 Navigate to the root of the cloned project and run to create a conda environment for the project:
 ```
-  conda env create -f enviroment.yaml
+  pip install -r package-list.txt
 ```
-
-Activate your environment:
-```
-  conda activate skip-thoughts
-```
-
 
 you should see something like this:
 
@@ -111,6 +121,17 @@ Paste the following into your chosen web browser:
 ```
   localhost:8000
 ```
+
+### Docker-compose
+If you just want to get started quickly this will work however it is not suitable for production, you will need to add something like gnuicorn to server static assets as well as nginx to direct to them securely.
+
+Navigate to the root directory.
+```
+ docker-compose up
+```
+
+open your browser and enter 0.0.0.0 and you're done!
+
 
 ## Basic usage
 ### Summarise a text file
